@@ -1,0 +1,83 @@
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    
+    width:100vw;  
+}
+
+body p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(136, 136, 136, 0.325);
+    padding: .5rem 0;
+    margin: 0 2rem;
+
+}
+
+.search h5{
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+.footer .box-1{
+    background-color:aqua;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;
+    margin: .5px;
+}
+.footer .box-1 h5{
+    margin: 0;
+}
+.footer .box-2{
+    width: 20%;
+    background-color:rgb(6, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;
+    margin: .5px;
+}
+.footer .box-3{
+    width: 45%;
+    background-color:rgb(2, 133, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;   
+    margin: .5px;
+}
+
+.footer .box-3 p{
+    margin: 0;
+}
